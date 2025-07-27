@@ -3,6 +3,8 @@ Steps
 // PLAY
 Install Half-Life Alyx.
 Install SteamVR.
+To launch game, go to "game/bin/win64/hlnonvr.exe"
+DO NOT USE THE SOURCE2MOD.EXE - its broken.
 
 // DEV
 Installing Workshop tools worked.
@@ -10,5 +12,8 @@ Installing Workshop tools worked.
 Created the root folder
 Copied gameinfo.gi and gameinfo_branchspecific.gi
 Copied cfg folder.
-Create symlinks for pack01_dir and all _001 files.
+Create symlinks for pack01_dir and all _001 files. NOTE: I dont think this is required anymore - it seems to work regardless.
 Changed title, and searchPaths for Mod and Write.
+
+
+

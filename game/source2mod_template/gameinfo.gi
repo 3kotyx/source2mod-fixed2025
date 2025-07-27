@@ -25,21 +25,16 @@
 		//
 		// Search paths are relative to the exe directory\..\
 		//
-		SearchPaths
+			searchpaths
 		{
-			// Mod paths
-			Mod					source2mod_template
-			Write				source2mod_template
-			Game				source2mod_template
-
-			// source2mod paths
-			Game				source2mod/vpks/source2mod.vpk
-			Game				source2mod/assets
-
-			// Half-Life Alyx paths
-			Game				hlvr
-			Game				core
-			AddonRoot			|all_source_engine_paths|hlvr_addons
+			mod	"source2mod_template" //replace with your mod name
+			write	"source2mod_template" //replace with your mod name
+			game	"source2mod_template" //replace with your mod name
+			game	"source2mod/vpks/source2mod.vpk"
+			game	"source2mod/assets"
+			game	"hlvr"
+			game	"core"
+			addonroot	"|all_source_engine_paths|hlvr_addons"
 		}
 	}
 	
